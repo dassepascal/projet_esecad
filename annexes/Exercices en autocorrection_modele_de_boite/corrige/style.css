@@ -1,0 +1,182 @@
+/*   reset */
+
+* {
+	margin:0; 
+	padding: 0
+}
+body {
+	font-family: arial, helvetica, sans-serif
+}
+ul, li {
+	list-style: none;
+}
+
+/* fin reset */
+
+
+/* #wrapper et génériques */
+#wrapper {
+margin: 0 auto;
+width: 960px;
+background-color: #fff;
+padding: 15px;
+border:1px solid #d5f;
+}
+
+
+h2, h3 {
+	text-align: 
+	center;
+	font-size: 22px; 
+	padding: 12px 0
+}
+
+
+#boites-simple, #boites-arriere-plan, #boites-debordement{
+	border: 2px dotted #e5d; 
+	margin:25px 0; 
+	background-color: #ddd}
+/* fin #wrapper et génériques */
+
+/************* boîtes simples ************************************/
+
+
+
+#boite-1 {
+	width:250px;
+	height: 250px;
+	background-color: #f00;
+}
+
+#boite-2 {
+	width:250px;
+	height: 250px;
+	background-color: #f00;
+	padding:20px;
+}
+
+#boite-3 {
+	width:250px;
+	height: 250px;
+	background-color: #f00;
+	padding:20px;
+	border:15px solid #000;
+}
+
+#boite-4 {
+	width:250px;
+	height: 250px;
+	background-color: #f00;
+	padding:20px;
+	border:15px solid #000;
+	margin: 25px
+}
+
+#border-box {
+	box-sizing: border-box;
+	width:250px;
+	height: 250px;
+	background-color: #f00;
+	padding:20px;
+	border:15px solid #000;
+	margin: 25px
+}
+
+/************* boîtes avec arrière-plan ************************************/
+#boite-5 {
+	width:250px;
+	height: 250px;
+	background-color: #f00;
+	padding:20px;
+	border:2px solid #000;
+	margin: 25px;
+	background-image: url(img/fond-brique.jpg);
+}
+#boite-6 {
+	width:250px;
+	height: 250px;
+	background-color: #f00;
+	padding:20px;
+	border:2px solid #000;
+	margin: 25px;
+	background-image: url(img/fond-bleu.jpg);
+	background-position: top left;
+}
+#boite-7 {
+	width:250px;
+	height: 250px;
+	background-color: #f00;
+	padding:20px;
+	border:2px solid #000;
+	margin: 25px;
+	background-image: url(img/fond-bleu.jpg);
+	background-position: bottom right;
+}
+#boite-8 {
+	width:250px;
+	height: 250px;
+	background-color: #f00;
+	padding:20px;
+	border:2px solid #000;
+	margin: 25px;
+	background-image: url(img/motif-01.png);
+	color:#fff;
+}
+
+#boite-9 {
+	width:250px;
+	height: 250px;
+	background-color: #fff;
+	padding:20px;
+	border:2px solid #000;
+	margin: 25px;
+	background-image: url(img/carre.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom; 
+}
+#boite-10 {
+	width:250px;
+	height: 250px;
+	background-color: #f00;
+	padding:20px;
+	border:2px solid #000;
+	margin: 25px;
+	background-image: url(img/logo.png), url(img/fond-bleu.jpg)  ;
+	background-repeat: no-repeat;
+	background-position: 95% 95%, center center; 
+}
+
+
+/****************débordements**************/
+
+#boite-11 {
+	width:250px;
+	background-color: #fff;
+	padding:20px;
+	border:2px solid #000;
+	margin: 25px
+}
+#boite-12 {
+	width:250px;
+	height:250px;
+	background-color: #fff;
+	padding:20px;
+	border:2px solid #000;
+	margin: 25px
+}
+#boite-13 {
+	width:250px;
+	background-color: #fff;
+	padding:20px;
+	border:2px solid #000;
+	margin: 250px 25px 25px;
+}
+#boite-14 {
+	width:250px;
+	min-height: 250px;
+	background-color: #fff;
+	padding:20px;
+	border:2px solid #000;
+	margin: 25px;
+}
+/******************fin débordements***************/
