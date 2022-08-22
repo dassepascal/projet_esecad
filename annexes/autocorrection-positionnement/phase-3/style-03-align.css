@@ -1,0 +1,39 @@
+/*   reset */
+
+* {
+	margin:0; 
+	padding: 0
+}
+body {
+	font-family: arial, helvetica, sans-serif
+}
+ul, li {
+	list-style: none;
+}
+
+/* fin reset */
+
+
+/* #wrapper et génériques */
+
+#wrapper {
+	margin: 20px auto;
+	width: 960px;
+	padding: 15px;
+	border:1px solid #d5f;
+}
+
+.row {
+	display: table-row;
+	background:#e9a8ce;
+	width: 100%;
+}
+.cell{
+	background:#c4c4f2;
+	display: table-cell;
+	border:5px solid #222;
+}
+
+ p {
+	padding: 0.8em;
+}

@@ -1,0 +1,217 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body {
+	margin:0;
+	font-family: verdana, sans-serif; 
+}
+
+img {max-width: 100%}
+a {
+	text-decoration: none;
+}
+
+/*****************header *********/
+.wrapper {
+	width: 80%;
+	margin:2em auto;
+}
+.main-header {
+	padding: 1vh 5vw;
+}
+.main-header h1 {
+	text-align:center;
+	padding:10px;
+	font-size: 0.8em;
+	margin: 1.5em;
+}
+
+.espace-section {
+	margin: 5em auto;
+}
+
+.main-menu {
+	text-align: center;
+}
+.main-menu li{
+	display: inline-block;
+}
+.main-menu a {
+	color: #ededed;
+	display: block;
+	font-size: 2em;
+	padding: 0.5em 1em;
+	text-shadow:2px 2px 2px #222 ;
+	border-radius: 5px;
+	background:#ed11df;
+	background: linear-gradient(to bottom, rgb(255,165,225) 0%,rgb(252,111,205) 52%,rgb(255,165,225) 100%);
+}
+.main-menu li:first-child a{
+	border-radius:20px 5px 5px 40px;
+}
+.main-menu li:last-child a{
+	border-radius:5px 40px 20px 5px;
+}
+.main-menu a:hover {
+	color: #333;
+	text-shadow: -03px -3px 2px rgb(239, 245, 238);
+	background: linear-gradient(to bottom, #ddd 0%,#aaa 50%,#ddd 100%);
+}
+
+/*************fin header ******************/
+/*<<<<<<<<<<< bloc image texte *************/
+.bloc-img  {
+	width:1000px;
+	min-height: 450px;		
+	color: #ededed;
+	font-size: 1.2em;
+	border: 0.1em solid;
+	text-decoration: none;
+	padding: 0.5em 1em;
+	background: url("annexes/img/chiesa.jpg");
+	background-size: cover;
+	background-origin: border-box; 
+	background-repeat: no-repeat;
+	background-position: left 37%;
+	border:2px solid #a6e0f1;
+	outline:3px solid #a6e0f1;
+	outline-offset: 5px;
+}
+.bloc-img h2 {
+	margin: 1em 0 1em 0.5em;
+}
+.bloc-img p{
+	background-color: hsla(45, 20%, 3.9%, 0.4);
+	padding: 1em;
+	width: 60%
+}
+/*.open:hover {
+	background:rgba(230,230,230,0.7);
+	color:#f71058;
+}
+*/
+
+/********************bloc avec defilement*************************/
+.container-actualites {
+	height:250px;
+	border-radius:10px;
+	overflow:auto;
+	padding:10px;
+	width: 15%;
+	background: radial-gradient(ellipse at center, rgb(181,235,252) 0%,rgb(157,217,234) 47%,rgb(149,201,214) 100%);
+}
+
+.item-actu {
+	border-bottom:1px solid #ac9068;
+	padding: 0 5px 10px 10px;
+	margin-top:10px;
+}
+.item-actu a {
+	color:#000;
+}
+.item-actu h3 {
+	font-weight: bold;
+	font-size: 12px;
+	font-weight: bold;
+	margin:0 0 3px 0;
+}
+.date  {
+	color:#d48940;
+	font-weight: bold;
+}
+.item-actu p  {
+	font-size:10px; 
+	padding:0px;
+	margin:0px
+}
+.item-actu a:hover, .item-actu span:hover {
+	color:#f00;
+}
+
+/*  */
+.art-top {
+	border: 1px solid #222;
+	background-color: #a9ebf0;;
+	min-height: 250px;
+	width: 400px;
+	padding: 15px;
+	display: inline-block;
+	margin:3em;
+}
+
+.degrade-1 {
+	background: linear-gradient(135deg, rgb(216,224,222) 0%,rgb(130,157,152) 47%,rgb(14,14,14) 100%);
+}
+.degrade-2 {
+	background: radial-gradient(ellipse at center, rgb(239,197,202) 0%,rgb(237,132,144) 27%,rgb(186,39,55) 99%);
+}
+.shadow-1 {
+	box-shadow: 58px 45px 64px 0px #d69fd6;
+	background-size: cover; 
+}
+.shadow-2 {
+	box-shadow: 24px 38px 16px 1px #bee3bf;
+}
+.shadow-3 {box-shadow: 7px 16px 16px 1px #bbbebc;}
+.img-back-1 {
+	background-image:url("annexes/img/came.jpg");
+	background-size: cover; 
+	background-position: left 37%;
+}
+.img-back-2 {
+	background-image:url("annexes/img/stare.jpg");
+	background-size: contain; 
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.timbre {
+	outline: 10px dashed #92adad;
+	outline-offset: -6px;
+	border: 6px solid #92adad;
+	background-color: #92adad;
+}
+
+
+/* 
+
+*/
+.art-col {
+	display: inline-block;
+	border: 1px solid #222;
+	background-color: #a9ebf0;
+	min-height: 250px;
+	width: 800px;
+	padding: 2em;
+	margin: 3em;
+}
+.column-1 {
+	column-width: 300px;
+	column-rule:2px dotted #f2a;
+	column-gap: 2em;
+}	
+
+.column-2 {
+	column-count: 6;
+	column-gap: 1em; 
+}
+.column-3 {
+	columns: 4 170px;
+	column-rule:2px dotted #f2a;
+	column-gap: 2em;
+}
+
+.column-4 {
+	columns: 4 170px;
+	column-rule:2px dotted #f2a;
+	column-gap: 3em;
+}
+
+
+footer {
+	color:#888; 
+	font-size:1em; 
+	padding: 1em; 
+	text-align: right
+}

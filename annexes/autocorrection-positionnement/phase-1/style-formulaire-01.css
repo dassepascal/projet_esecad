@@ -1,0 +1,63 @@
+/*   reset */
+
+* {
+	margin:0; 
+	padding: 0
+}
+body {
+	font-family: arial, helvetica, sans-serif
+}
+ul, li {
+	list-style: none;
+}
+
+/* fin reset */
+
+
+/* #wrapper et génériques */
+
+#wrapper {
+	margin: 25px auto;
+	width: 650px;
+	background-color: #fff;
+	padding: 15px;
+	border:1px solid #d5f;
+}
+
+
+
+form {
+		padding: 20px;
+		background: #91B6C0;;
+}
+
+form p {
+	margin:1em 0;
+}
+input, textarea, label {
+	display: inline-block;
+ 	vertical-align: top;
+}
+
+label {
+			width: 100px;
+			margin-right: 20px;
+			font-size: 1em;
+			text-align: right
+		}
+input, textarea {
+			width: 150px;
+			padding: 4px;
+			background: #f2f2f2;
+			border: 1px solid #ddd;
+			
+		}
+
+
+#sujet { width: 250px; }
+#message {
+			width: 430px;
+			height: 50px;
+		}
+
+			

@@ -1,0 +1,44 @@
+/*   reset */
+
+* {
+	margin:0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: arial, helvetica, sans-serif
+}
+
+/* fin reset */
+	
+
+/* #wrapper et génériques */
+
+#wrapper {
+	margin: 25px auto;
+	width: 960px;
+	background-color: #fff;
+	padding: 15px;
+	border:1px solid #d5f;
+}
+img {
+	max-width: 100%
+}
+main {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+.container-vignette  {
+	border: 10px solid #fff;
+	background-color: #eecc11;
+	display: table-cell;
+	width: 25%;
+	text-align: center;
+}
+.container-vignette > figcaption{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0.4em;
+
+}

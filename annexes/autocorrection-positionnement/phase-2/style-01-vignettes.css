@@ -1,0 +1,43 @@
+/*   reset */
+
+* {
+	margin:0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: arial, helvetica, sans-serif
+}
+
+/* fin reset */
+
+
+/* #wrapper et génériques */
+
+#wrapper {
+	margin: 25px auto;
+	width: 960px;
+	background-color: #fff;
+	padding: 15px;
+	border:1px solid #d5f;
+}
+.container-vignette  {
+	border: 1px solid #ddd;
+	background-color: #eecc11;
+	display: inline-block;
+	margin: .2em;
+	width: 48%;
+}
+.container-vignette > *{
+	display: inline-block;
+	vertical-align: middle;
+
+}
+.container-vignette > img{
+	margin-right: 5px;
+	width: 150px;
+}
+.container-vignette > figcaption{
+	padding:0 0.5em;
+	width: calc(100% - 160px)
+}

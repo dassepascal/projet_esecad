@@ -1,0 +1,36 @@
+/*   reset */
+
+* {
+	margin:0; 
+	padding: 0
+}
+body {
+	font-family: arial, helvetica, sans-serif
+}
+ul, li {
+	list-style: none;
+}
+
+/* fin reset */
+
+
+/* #wrapper et génériques */
+
+#wrapper {
+	margin: 0 auto;
+	width: 960px;
+	background-color: #fff;
+	padding: 15px;
+	border:1px solid #d5f;
+}
+
+.bloc-align {
+	display: inline-block;
+	width: 22%;
+	margin: 5% 1%;
+	border: 1px solid #ddd;
+	background:#f2bd9c66;
+	box-sizing: border-box; 
+	vertical-align: middle; 
+	padding: 0.3em;
+}
